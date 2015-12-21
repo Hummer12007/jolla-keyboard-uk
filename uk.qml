@@ -38,7 +38,7 @@ KeyboardLayout {
         CharacterKey { caption: "ц"; captionShifted: "Ц"; symView: "2"; symView2: "£" }
         CharacterKey { caption: "у"; captionShifted: "У"; symView: "3"; symView2: "$" }
         CharacterKey { caption: "к"; captionShifted: "К"; symView: "4"; symView2: "¥" }
-        CharacterKey { caption: "е"; captionShifted: "Е"; symView: "5"; symView2: "₹" }
+        CharacterKey { caption: "е"; captionShifted: "Е"; symView: "5"; symView2: "₹"; accents: "ё"; accentsShifted: "Ё" }
         CharacterKey { caption: "н"; captionShifted: "Н"; symView: "6"; symView2: "¤" }
         CharacterKey { caption: "г"; captionShifted: "Г"; symView: "7"; symView2: "<"; accents: "гґ₴"; accentsShifted: "ГҐ₴" }
         CharacterKey { caption: "ш"; captionShifted: "Ш"; symView: "8"; symView2: ">" }
@@ -50,7 +50,7 @@ KeyboardLayout {
 
     KeyboardRow {
         CharacterKey { caption: "ф"; captionShifted: "Ф"; symView: "*"; symView2: "`" }
-        CharacterKey { caption: "і"; captionShifted: "І"; symView: "#"; symView2: "√" }
+        CharacterKey { caption: "і"; captionShifted: "І"; symView: "#"; symView2: "√"; accents: "ї"; accentsShifted: "Ї" }
         CharacterKey { caption: "в"; captionShifted: "В"; symView: "+"; symView2: "±" }
         CharacterKey { caption: "а"; captionShifted: "А"; symView: "×"; symView2: "_" }
         CharacterKey { caption: "п"; captionShifted: "П"; symView: "="; symView2: "≈" }
@@ -59,7 +59,7 @@ KeyboardLayout {
         CharacterKey { caption: "л"; captionShifted: "Л"; symView: "\""; symView2: "°" }
         CharacterKey { caption: "д"; captionShifted: "Д"; symView: "~"; symView2: "·" }
         CharacterKey { caption: "ж"; captionShifted: "Ж"; symView: "!"; symView2: "¡" }
-        CharacterKey { caption: "є"; captionShifted: "Є"; symView: "?"; symView2: "¿" }
+        CharacterKey { caption: "є"; captionShifted: "Є"; symView: "?"; symView2: "¿"; accents: "э"; accentsShifted: "Э" }
     }
 
     KeyboardRow {
@@ -73,9 +73,9 @@ KeyboardLayout {
         CharacterKey { caption: "ч"; captionShifted: "Ч"; symView: "&"; symView2: "»" }
         CharacterKey { caption: "с"; captionShifted: "С"; symView: "/"; symView2: "÷" }
         CharacterKey { caption: "м"; captionShifted: "М"; symView: "\\"; symView2: "“" }
-        CharacterKey { caption: "и"; captionShifted: "И"; symView: "-"; symView2: "”" }
+        CharacterKey { caption: "и"; captionShifted: "И"; symView: "-"; symView2: "”"; accents: "ы"; accentsShifted: "Ы" }
         CharacterKey { caption: "т"; captionShifted: "Т"; symView: ";"; symView2: "„" }
-        CharacterKey { caption: "ь"; captionShifted: "Ь"; symView: ":"; symView2: "©" }
+        CharacterKey { caption: "ь"; captionShifted: "Ь"; symView: ":"; symView2: "©"; accents: "ь"; accentsShifted: "Ь" }
         CharacterKey { caption: "б"; captionShifted: "Б"; symView: "^"; symView2: "®" }
         CharacterKey { caption: "ю"; captionShifted: "Ю"; symView: "|"; symView2: "§" }
 
